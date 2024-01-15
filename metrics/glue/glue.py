@@ -78,7 +78,7 @@ Examples:
     {'matthews_correlation': 1.0}
 """
 
-
+# 计算准确率
 def simple_accuracy(preds, labels):
     return float((preds == labels).mean())
 
